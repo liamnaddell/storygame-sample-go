@@ -1,12 +1,11 @@
 package main
 
 import (
-	"github.com/skilstak/storyeng-go"
-	"github.com/skilstak/storygame-sample-go/parts"
+	game "github.com/skilstak/storyeng-go"
+	storygame "github.com/skilstak/storygame-sample-go/parts"
 )
 
 func main() {
-	parts := storygame.Parts
-	story := storyeng.NewStory(parts)
+	story := game.NewStory(storygame.Parts)
 	story.Start()
 }

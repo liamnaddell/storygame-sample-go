@@ -1,12 +1,12 @@
 package storygame
 
 import (
-	"github.com/skilstak/storyeng-go"
+	game "github.com/skilstak/storyeng-go"
 	"github.com/skilstak/storygame-sample-go/parts/name"
 	"github.com/skilstak/storygame-sample-go/parts/welcome"
 )
 
-var Parts = storyeng.Parts{
+var Parts = game.Parts{
 	"name":    name.Part,
 	"welcome": welcome.Part,
 }
